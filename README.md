@@ -62,8 +62,8 @@ Checks that:
 Run this command
 ```
 curl -fsSL https://raw.githubusercontent.com/<username>/<repo>/main/setup-zsh.sh -o setup-zsh.sh
-chmod +x setup-zsh.sh
-./setup-zsh.sh
+chmod +x install-zsh.sh
+./install-zsh.sh
 ```
 
 ### Usage
