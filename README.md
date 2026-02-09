@@ -1,5 +1,9 @@
 # My Linux Settings
-
+---
+## Table of Contents
+- [Zsh + Oh My Zsh Setup Script](#Zsh-+-Oh-My-Zsh-Setup-Script)
+- [Termniator config](#Terminator-config)
+---
 ## Zsh + Oh My Zsh Setup Script
 
 Automated installer and configurator for **Zsh** with **Oh My Zsh** and a curated set of productivity plugins.
@@ -7,9 +11,7 @@ Automated installer and configurator for **Zsh** with **Oh My Zsh** and a curate
 The script is **idempotent** — it can be safely re-run.  
 It verifies that configuration changes were applied successfully.
 
----
-
-## What This Script Does
+### What This Script Does
 
 ### 1. Installs Required Packages
 - `zsh`
@@ -98,3 +100,6 @@ If these commands are recognized, setup is successful.
 - Safe to re-run - plugins will be updated if already installed.
 - Existing `plugins=` line will be replaced.
 - Custom functions are appended only if not already present.
+
+## Terminator config
+My personal small cfg for the Terminator console
