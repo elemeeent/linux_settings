@@ -61,7 +61,7 @@ Checks that:
 ### Online execution
 Run this command
 ```
-curl -fsSL https://raw.githubusercontent.com/<username>/<repo>/main/setup-zsh.sh -o setup-zsh.sh
+curl -fsSL https://raw.githubusercontent.com/elemeeent/linux_settings/main/install-zsh.sh -o install-zsh.sh
 chmod +x install-zsh.sh
 ./install-zsh.sh
 ```
