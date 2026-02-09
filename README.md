@@ -6,7 +6,7 @@
 ---
 ## Zsh + Oh My Zsh Setup Script
 
-Automated installer and configurator for **Zsh** with **Oh My Zsh** and a curated set of productivity plugins.
+Automated installer and configurator for **Zsh** with **Oh My Zsh** and a curated set of productivity plugins via 1 file: [install_zsh.sh](https://github.com/elemeeent/linux_settings/blob/main/install_zsh.sh)
 
 The script is **idempotent** — it can be safely re-run.  
 It verifies that configuration changes were applied successfully.
@@ -47,7 +47,7 @@ Appends (if missing):
 - `fp` - find processes by pattern (formatted table output)
 - `sr` - reload ~/.zshrc
 
-### 6. Sets Zsh as Default Shell
+### 6. Sets Zsh as a Default Shell
 Attempts to switch the default shell to zsh.
 
 ### 7. Verifies Installation
@@ -102,4 +102,4 @@ If these commands are recognized, setup is successful.
 - Custom functions are appended only if not already present.
 
 ## Terminator config
-My personal small cfg for the Terminator console
+My personal small cfg [file](https://github.com/elemeeent/linux_settings/blob/main/terminator_config) for the Terminator console 
