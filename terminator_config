@@ -1,0 +1,24 @@
+[global_config]
+[keybindings]
+  split_horiz = <Alt>less
+  split_vert = <Alt>greater
+  close_term = <Primary>w
+  copy = <Primary><Shift>c
+  paste = <Primary>v
+[profiles]
+  [[default]]
+    background_color = "#070d45"
+    background_darkness = 0.92
+    background_type = transparent
+    font = Ubuntu Sans Mono 14
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
