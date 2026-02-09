@@ -61,20 +61,20 @@ Checks that:
 ### Online execution
 Run this command
 ```
-curl -fsSL https://raw.githubusercontent.com/elemeeent/linux_settings/main/install-zsh.sh -o install-zsh.sh
-chmod +x install-zsh.sh
-./install-zsh.sh
+curl -fsSL https://raw.githubusercontent.com/elemeeent/linux_settings/main/install_zsh.sh -o install_zsh.sh
+chmod +x install_zsh.sh
+./install_zsh.sh
 ```
 
 ### Usage
 Make the script executable:
 ```
-chmod +x install-zsh.sh
+chmod +x install_zsh.sh
 ```
 
 Run it:
 ```
-./install-zsh.sh
+./install_zsh.sh
 ```
 
 After completion, start a new shell:
